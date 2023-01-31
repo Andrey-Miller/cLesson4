@@ -20,5 +20,4 @@ string[] InputArray(string str)
 }
 
 string[] array = InputArray("Введи 8 символов через пробел: ");
-System.Console.Write($"Массив из 8 элементов: ");
-Console.WriteLine("[{0}]", string.Join(", ", array));
+Console.WriteLine("Массив из 8 элементов: [{0}]", string.Join(", ", array));
